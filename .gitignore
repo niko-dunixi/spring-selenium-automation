@@ -1,0 +1,77 @@
+#Maven
+
+target/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+#Eclipse
+
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.externalToolBuilders/
+*.launch
+.cproject
+.classpath
+.factorypath
+.buildpath
+.target
+.texlipse
+
+#Intellij
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+*.iml
+.idea/
+*.ipr
+*.iws
+/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+#C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers
+*.gch
+*.pch
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+# Fortran module files
+*.mod
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+# Executables
+*.exe
+*.out
+*.app
+
+# Generic files to ignore
+*.log
