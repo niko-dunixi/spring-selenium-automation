@@ -9,7 +9,7 @@
   <packaging>jar</packaging>
 
   <name>spring-selenium-automation</name>
-  <description>Demo project for Spring Boot</description>
+  <description>A simple Spring based web automation framework.</description>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -34,7 +34,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <!--<scope>test</scope>-->
     </dependency>
 
     <dependency>
@@ -42,7 +42,7 @@
       <artifactId>selenium-server</artifactId>
       <version>${selenium.version}</version>
     </dependency>
-    
+
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
